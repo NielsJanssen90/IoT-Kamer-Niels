@@ -35,8 +35,8 @@ GREEN_PIN = 13   # GPIO 111, wPi 9, Physical Pin 16
 BLUE_PIN = 9   # GPIO 117, wPi 13, Physical Pin 22
 
 # Temperature Thresholds for RGB LED
-COLD_THRESHOLD = 20.0
-WARM_THRESHOLD = 21.0
+COLD_THRESHOLD = 18.0
+WARM_THRESHOLD = 22.0
 
 # Stepper Motor Step Sequence
 step_sequence = [
