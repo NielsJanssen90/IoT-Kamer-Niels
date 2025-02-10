@@ -14,13 +14,14 @@ import adafruit_minimqtt.adafruit_minimqtt as MQTT
 # --------------------------------------------------------------------------------
 #                      Wi-Fi + NTP + MQTT Configuration
 # --------------------------------------------------------------------------------
-SSID = "IoT"
-PASSWORD = "IoTPassword"
+SSID = "Unifi"
+PASSWORD = "1840Elitekiller!"
 
 # Timezone (Belgium UTC+1 normally, +2 if DST)
 UTC_OFFSET = 1
 
-# ThingSpeak MQTT (for field 8)
+# ThingSpeak MQTT (for field
+#  8)
 MQTT_BROKER = "mqtt3.thingspeak.com"
 MQTT_PORT = 1883
 USERNAME = "IBMdDQkiOC0nKyYyPCUHEwc"
