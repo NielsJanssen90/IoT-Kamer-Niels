@@ -16,12 +16,12 @@ THRESHOLD_CHANNEL_ID = 2792381
 THRESHOLD_FIELD = 8
 
 # === ThingSpeak MQTT Configuration (for publishing lux) ===
-CLIENT_ID  = "IBMdDQkiOC0nKyYyPCUHEwc"
-USERNAME   = "IBMdDQkiOC0nKyYyPCUHEwc"
-PASSWORD   = "Qlip4tGAUSx8UsoZzZJ1sm3c"
+CLIENT_ID  = "NBkUGh44NyIgAzIgCSEBFyk"
+USERNAME   = "NBkUGh44NyIgAzIgCSEBFyk"
+PASSWORD   = "IsVPqY83vLyeYpHSIbmABMYh"
 CHANNEL_ID = "2792379"  # The channel to which we publish the lux reading
 THINGSPEAK_MQTT_BROKER = "mqtt3.thingspeak.com"
-THINGSPEAK_MQTT_PORT   = 8883  # or 8883 if using TLS/SSL
+THINGSPEAK_MQTT_PORT   = 1883  # or 8883 if using TLS/SSL
 
 # ULN2003 Pin Definitions (Stepper Motor)
 IN1 = 10  # GPIO 112, wPi 10, Physical Pin 18
@@ -40,15 +40,10 @@ WARM_THRESHOLD = 22.0
 
 # Stepper Motor Step Sequence
 step_sequence = [
-    [1, 0, 0, 0],  # Step 1
-    [1, 1, 0, 0],  # Step 2
-    [0, 1, 0, 0],  # Step 3
-    [0, 1, 1, 0],  # Step 4
-    [0, 0, 1, 0],  # Step 5
-    [0, 0, 1, 1],  # Step 6
-    [0, 0, 0, 1],  # Step 7
-    [1, 0, 0, 1],  # Step 8
-
+    [1, 1, 0, 0],
+    [0, 1, 1, 0],
+    [0, 0, 1, 1],
+    [1, 0, 0, 1],
 ]
 
 # ------------------------------------------------------------
